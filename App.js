@@ -8,10 +8,10 @@ import CarList from "./Components/CarList/CarList";
 export default function App() {
   return (
     <View style={styles.container}>
-      {/* <Header /> */}
+      <Header />
+      <CarItem />
       <CarList />
-
-      {/* <StatusBar style="auto" /> */}
+      <StatusBar style="auto" />
     </View>
   );
 }
