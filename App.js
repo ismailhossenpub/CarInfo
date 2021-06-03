@@ -23,7 +23,6 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     alignItems: "center",
     justifyContent: "center",
-    // position:"relative"
   },
   copyRight: {
     padding: 10,
