@@ -1,6 +1,6 @@
 import { Dimensions, StyleSheet } from "react-native";
 
-const styles = StyleSheet.create({
+const bikeStyles = StyleSheet.create({
   bikeContainer: {
     width: "100%",
     height: Dimensions.get("window").height,
