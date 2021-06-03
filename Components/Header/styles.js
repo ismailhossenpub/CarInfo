@@ -10,10 +10,11 @@ const styles = StyleSheet.create({
     width: '100%',
     paddingHorizontal: 20,
   },
-  logo: {
+  CarInfo: {
     width: 100,
     height: 20,
     resizeMode: 'contain',
+    fontWeight:'bold',
   },
   menu: {
     width: 25,
