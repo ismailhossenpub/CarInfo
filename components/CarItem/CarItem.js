@@ -10,9 +10,9 @@ const CarItem = (props) => {
       <ImageBackground source={image} style={styles.image} />
 
       <View style={styles.titles}>
-        <Text style={styles.carName}>{name}</Text>
-        <Text style={styles.title}>{tagline}</Text>
-        <Text style={styles.subTitle}>{taglineCTA}</Text>
+        <Text style={styles.carName}>Testla</Text>
+        <Text style={styles.title}>Model S</Text>
+        <Text style={styles.subTitle}>Starting at $79,000</Text>
       </View>
 
       <View style={styles.buttonWrapper}>
