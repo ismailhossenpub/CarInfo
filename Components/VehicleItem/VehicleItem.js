@@ -1,13 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import { Text, View, ImageBackground } from "react-native";
 import styles from "./styles";
 import BottomButton from "../Buttons/BottomButton";
+import OrderPaymentDialog from "../OrderPaymentDialog/OrderPaymentDialog";
 
 const VehicleItem = (props) => {
   const { name, model, image, price } = props.item;
+  const [visibility, setVisibility] = useState(false);
   return (
     <View style={styles.carContainer}>
       <ImageBackground source={image} style={styles.image} />
+
+      {visibility && <OrderPaymentDialog setVisibility={setVisibility} />}
 
       <View style={styles.titles}>
         <Text style={styles.carName}>{name}</Text>
@@ -24,13 +28,7 @@ const VehicleItem = (props) => {
           }}
         />
 
-        <BottomButton
-          type="secondary"
-          content={"Order Now"}
-          onPress={() => {
-            console.log("Existing Inventory was pressed");
-          }}
-        />
+        <BottomButton type="secondary" content={"Order Now"} onPress={() => setVisibility(!visibility)} />
       </View>
     </View>
   );

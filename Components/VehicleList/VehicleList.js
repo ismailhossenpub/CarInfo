@@ -12,10 +12,13 @@ import vehicle from "./vehicle";
 /*  🔥 React Dependencies 🔥 */
 
 const VehicleList = () => {
+  const vehiclesList = [...vehicle];
+  vehiclesList.sort(() => Math.random() - 0.5);
+
   return (
     <View style={{ width: "100%" }}>
       <FlatList
-        data={vehicle}
+        data={vehiclesList}
         renderItem={({ item, index }) => <VehicleItem item={item} key={index} />}
         showsVerticalScrollIndicator={true}
         snapToAlignment={"start"}
