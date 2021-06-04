@@ -1,22 +1,22 @@
 /*  
-💥 Title : CarList
+💥 Title : VehicleList
 📃 Description : 
 ✍ Author : Saad Hasan
 ⌚ Date : 03/ June/ 2021 
 */
 import React from "react";
-import { Dimensions, FlatList, Text, View } from "react-native";
-import CarItem from "../CarItem/CarItem";
-import cars from "./cars";
+import { Dimensions, FlatList, View } from "react-native";
+import VehicleItem from "../VehicleItem/VehicleItem";
+import vehicle from "./vehicle";
 
 /*  🔥 React Dependencies 🔥 */
 
-const CarList = () => {
+const VehicleList = () => {
   return (
     <View style={{ width: "100%" }}>
       <FlatList
-        data={cars}
-        renderItem={({ item, index }) => <CarItem car={item} key={index} />}
+        data={vehicle}
+        renderItem={({ item, index }) => <VehicleItem item={item} key={index} />}
         showsVerticalScrollIndicator={true}
         snapToAlignment={"start"}
         decelerationRate={"fast"}
@@ -26,4 +26,4 @@ const CarList = () => {
   );
 };
 
-export default CarList;
+export default VehicleList;
