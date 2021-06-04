@@ -7,7 +7,7 @@ const bikeStyles = StyleSheet.create({
   },
 
   titles: {
-    marginTop: "30%",
+    marginTop: "15%",
     width: "100%",
     alignItems: "center",
   },
