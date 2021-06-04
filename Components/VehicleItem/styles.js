@@ -7,22 +7,22 @@ const styles = StyleSheet.create({
   },
 
   titles: {
-    marginTop: "30%",
+    marginTop: "25%",
     width: "100%",
     alignItems: "center",
   },
 
   carName: {
-    fontSize: 18,
+    fontSize: 16,
   },
 
   title: {
-    fontSize: 35,
+    fontSize: 30,
     fontWeight: "500",
   },
 
   subTitle: {
-    fontSize: 16,
+    fontSize: 15,
     color: "#5c5e62",
   },
 

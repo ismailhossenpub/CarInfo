@@ -3,22 +3,22 @@ import { Text, View, ImageBackground } from "react-native";
 import styles from "./styles";
 import BottomButton from "../Buttons/BottomButton";
 
-const CarItem = (props) => {
-  const { name, tagline, taglineCTA, image } = props.car;
+const VehicleItem = (props) => {
+  const { name, model, image, price } = props.item;
   return (
     <View style={styles.carContainer}>
       <ImageBackground source={image} style={styles.image} />
 
       <View style={styles.titles}>
-        <Text style={styles.carName}>Testla</Text>
-        <Text style={styles.title}>Model S</Text>
-        <Text style={styles.subTitle}>Starting at $79,000</Text>
+        <Text style={styles.carName}>{name}</Text>
+        <Text style={styles.title}>Model {model}</Text>
+        <Text style={styles.subTitle}>Starting at {price}</Text>
       </View>
 
       <View style={styles.buttonWrapper}>
         <BottomButton
           type="primary"
-          content={"Button One"}
+          content={"Details"}
           onPress={() => {
             console.log("Custom Order was pressed");
           }}
@@ -26,7 +26,7 @@ const CarItem = (props) => {
 
         <BottomButton
           type="secondary"
-          content={"Button Two"}
+          content={"Order Now"}
           onPress={() => {
             console.log("Existing Inventory was pressed");
           }}
@@ -36,4 +36,4 @@ const CarItem = (props) => {
   );
 };
 
-export default CarItem;
+export default VehicleItem;

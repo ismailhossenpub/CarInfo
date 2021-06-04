@@ -11,8 +11,8 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
   },
   VehicleInfo: {
-    fontSize:'18px',
-    fontWeight:'bold',
+    fontSize: 14,
+    fontWeight: 'bold',
   },
   menu: {
     width: 25,
