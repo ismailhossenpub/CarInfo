@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "CarInfo",
-    "slug": "CarInfo",
+    "name": "VehicleInfo",
+    "slug": "VehicleInfo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/VehicleInfo.png",

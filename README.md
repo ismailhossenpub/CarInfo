@@ -1,2 +1,2 @@
-# CarInfo
+# VehicleInfo
 # Native Project
