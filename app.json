@@ -4,9 +4,9 @@
     "slug": "VehicleInfo",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/VehicleInfo.png",
+    "icon": "./assets/favicon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/favicon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -21,7 +21,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/favicon.png",
         "backgroundColor": "#FFFFFF"
       }
     },
