@@ -5,7 +5,7 @@ import styles from './styles'
 const Header = () => {
     return (
         <View style={styles.container}>
-            <Text style={styles.CarInfo}>CarInfo</Text>
+            <Text style={styles.VehicleInfo}>VehicleInfo</Text>
             <Image style={styles.menu} source={require('../../assets/images/menu.png')}></Image>
         </View>
     )
