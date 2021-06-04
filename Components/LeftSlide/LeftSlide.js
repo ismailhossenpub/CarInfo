@@ -14,7 +14,6 @@ const LeftSlide = ({ setVisible, visibile }) => {
   const [isTrue, setIsTrue] = useState(false);
 
   const handleHide = () => {
-    // setVisible(!visibile);
     Animated.timing(transAnim, {
       toValue: -300,
       duration: 400,
