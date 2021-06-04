@@ -32,13 +32,13 @@ const styles = StyleSheet.create({
   },
   button: {
     height: 40,
-    borderRadius: 20,
+    borderRadius: 10,
     justifyContent: "center",
     alignItems: "center",
   },
   text: {
-    fontSize: 12,
-    fontWeight: "500",
+    fontSize: 14,
+    fontWeight: "700",
     textTransform: "uppercase",
   },
 });

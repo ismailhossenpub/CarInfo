@@ -14,11 +14,12 @@ const styles = StyleSheet.create({
 
   carName: {
     fontSize: 16,
+    fontWeight: "500",
   },
 
   title: {
     fontSize: 30,
-    fontWeight: "500",
+    fontWeight: "700",
   },
 
   subTitle: {
