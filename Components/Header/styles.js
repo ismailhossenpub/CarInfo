@@ -10,10 +10,8 @@ const styles = StyleSheet.create({
     width: '100%',
     paddingHorizontal: 20,
   },
-  CarInfo: {
-    width: 100,
-    height: 20,
-    resizeMode: 'contain',
+  VehicleInfo: {
+    fontSize:'18px',
     fontWeight:'bold',
   },
   menu: {
